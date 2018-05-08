@@ -1,8 +1,9 @@
 #BlueJ class context
 comment0.target=Code
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Code\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ Used\ to\ store\ the\ code\ for\ gameplay\ and\ check\ guesses.\ \n\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n\ @version\ 5/8/18\n
 comment1.params=code
 comment1.target=Code(char[])
 comment2.params=guess
 comment2.target=java.lang.String\ getResponse(char[])
+comment2.text=\n\ Takes\ in\ a\ guess\ for\ the\ the\ code\ could\ be,\ and\ checks\ to\ see\ what\ parts\ of\ it\ are\ correct\n\ \n\ @param\ guess\ char[]\ the\ guess\ to\ check\ against\ the\ code\n\ @return\ a\ String\ with\ b\ and/or\ w\ to\ represent\ the\ black\ and\ white\ pegs\ the\ guesser\ recieves\n\ @author\ Arnav\ Parashar\n
 numComments=3

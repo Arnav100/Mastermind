@@ -10,6 +10,7 @@ import java.util.ArrayList;
  */
 public class Codebreaker
 {
+
     private Scanner _sc;
     
     // the guesses and responses that the computer has previously made
