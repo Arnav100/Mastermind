@@ -7,8 +7,10 @@ import java.util.Scanner;
  */
 public class Codebreaker
 {
-    public Codebreaker()
+    Scanner _sc;
+    public Codebreaker(Scanner sc)
     {
+        _sc = sc;
     }
     
     public void makeCPUGuess() 
@@ -16,7 +18,7 @@ public class Codebreaker
     
     }
     
-    public void makeUserGuess(Scanner sc)
+    public void makeUserGuess()
     {
     
     }

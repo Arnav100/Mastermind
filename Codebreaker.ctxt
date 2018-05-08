@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Codebreaker
 comment0.text=\n\ Write\ a\ description\ of\ class\ Codebreaker\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=
-comment1.target=Codebreaker()
+comment1.params=sc
+comment1.target=Codebreaker(java.util.Scanner)
 comment2.params=
 comment2.target=void\ makeCPUGuess()
-comment3.params=sc
-comment3.target=void\ makeUserGuess(java.util.Scanner)
+comment3.params=
+comment3.target=void\ makeUserGuess()
 numComments=4
