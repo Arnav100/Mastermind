@@ -1,0 +1,23 @@
+import java.util.Scanner;
+/**
+ * Write a description of class Codebreaker here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Codebreaker
+{
+    public Codebreaker()
+    {
+    }
+    
+    public void makeCPUGuess() 
+    {
+    
+    }
+    
+    public void makeUserGuess(Scanner sc)
+    {
+    
+    }
+}
