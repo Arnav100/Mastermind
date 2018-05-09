@@ -1,14 +1,16 @@
 #BlueJ class context
 comment0.target=Codemaker
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Codemaker\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ Codemaker\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=sc
 comment1.target=Codemaker(java.util.Scanner)
+comment1.text=\n\ Used\ when\ computer\ is\ the\ codemaker,\ this\ creates\ a\ new\ Codemaker\ object\ and\ makes\ a\ random\ code.\ \n\ \n\ @param\ sc\ Scanner\ a\ pointer\ for\ the\ _sc\ so\ that\ Codemaker\ can\ prompt\ the\ user\ when\ necessary\n\ @author\ Arnav\ Parashar\n
 comment2.params=input\ sc
 comment2.target=Codemaker(java.lang.String,\ java.util.Scanner)
-comment3.params=
-comment3.target=Code\ getCode()
-comment4.params=guess
-comment4.target=java.lang.String\ getCPUResponse(java.lang.String)
-comment5.params=guess
-comment5.target=java.lang.String\ getUserResponse(java.lang.String)
-numComments=6
+comment2.text=\n\ Used\ when\ the\ user\ is\ the\ codemaker,\ this\ creates\ a\ new\ Codemaker\ object\ and\ takes\ in\ the\ user's\ code.\ \n\ \n\ @param\ input\ String\ the\ code\ the\ user\ would\ like\ to\ use\n\ @param\ sc\ Scanner\ a\ pointer\ for\ the\ _sc\ so\ that\ Codemaker\ can\ prompt\ the\ user\ when\ necessary\n\ @author\ Arnav\ Parashar\n
+comment3.params=userGuess
+comment3.target=java.lang.String\ getCPUResponse(java.lang.String)
+comment3.text=\n\ Used\ when\ the\ CPU\ is\ the\ codemaker,\ this\ responds\ with\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ user's\ guess\n\ \n\ @param\ userGuess\ String\ the\ guess\ of\ the\ user\ to\ be\ compared\ to\ the\ correct\ code\n\ @return\ a\ String\ with\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ guess\n\ @author\ Arnav\ Parashar\n
+comment4.params=cpuGuess
+comment4.target=java.lang.String\ getUserResponse(java.lang.String)
+comment4.text=\n\ Used\ when\ the\ user\ is\ the\ codemaker,\ has\ the\ user\ respond\ with\ what\ they\ think\ to\ be\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ CPU's\ guess\n\ \n\ @param\ cpuGuess\ String\ the\ guess\ of\ the\ cpu\ to\ be\ compared\ to\ the\ correct\ code\n\ @return\ a\ String\ with\ the\ user's\ amount\ of\ black\ and\ white\ pegs\ for\ the\ guess\n\ @author\ Arnav\ Parashar\n
+numComments=5
