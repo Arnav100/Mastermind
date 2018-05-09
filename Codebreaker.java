@@ -17,12 +17,14 @@ public class Codebreaker
     private String[] _guesses;
     private String[] _responses;
     
+    private final int NUM_OF_ROUNDS = 15;
+    
     public Codebreaker(Scanner sc)
     {
         _sc = sc;
         
-        _guesses = new String[15];
-        _responses = new String[15];
+        _guesses = new String[NUM_OF_ROUNDS];
+        _responses = new String[NUM_OF_ROUNDS];
     }
     
     /**
