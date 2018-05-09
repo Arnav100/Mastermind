@@ -7,17 +7,17 @@ import java.util.Scanner;
  */
 public class Codemaker
 { 
-  
-
   private Code _code;
-  public Codemaker() 
+  private Scanner _sc;
+  
+  public Codemaker(Scanner sc) 
   {
-    
+      _sc = sc;
   }
   
-  public Codemaker(String input)
+  public Codemaker(String input, Scanner sc)
   {
-    
+      _sc = sc;
   }
   
   public Code getCode()
@@ -30,7 +30,7 @@ public class Codemaker
       return null;
   }
   
-  public String getUserResponse(String guess, Scanner sc)
+  public String getUserResponse(String guess)
   {
       return null;
   } 
