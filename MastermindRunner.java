@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class MastermindRunner
 {
     private GameBoard _gameBoard;
-    private Scanner sc;
+    private Scanner _sc;
     public static void main()
     {
     

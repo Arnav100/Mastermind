@@ -15,7 +15,7 @@ public class Codemaker
     
   }
   
-  public Codemaker(char[] input)
+  public Codemaker(String input)
   {
     
   }
@@ -25,7 +25,7 @@ public class Codemaker
     return null;
   }
   
-  public String getCPUResponse(char[] guess) 
+  public String getCPUResponse(String guess) 
   {
       return null;
   }

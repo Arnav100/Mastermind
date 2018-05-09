@@ -14,15 +14,15 @@ public class Codebreaker
     private Scanner _sc;
     
     // the guesses and responses that the computer has previously made
-    private ArrayList<char[]> _guesses;
-    private ArrayList<String> _responses;
+    private String[] _guesses;
+    private String[] _responses;
     
     public Codebreaker(Scanner sc)
     {
         _sc = sc;
         
-        _guesses = new ArrayList<char[]>();
-        _responses = new ArrayList<String>();
+        _guesses = new String[15];
+        _responses = new String[15];
     }
     
     /**
@@ -30,9 +30,9 @@ public class Codebreaker
      * Uses an AI algorithm to guess the code based on
      * previous guesses and responses.
      * 
-     * @return The computer's guess as a character array.
+     * @return The computer's guess as a String object.
      */
-    public char[] makeCPUGuess() 
+    public String makeCPUGuess() 
     {
         return null;
     }
@@ -46,18 +46,24 @@ public class Codebreaker
      */
     public void addResponse(String response)
     {
-        _responses.add(response);
+        for(int i = 0; i < _responses.length; i++)
+        {
+            if(_responses[i] == null)
+            {
+                _responses[i] = response;
+                return;
+            }
+        }
     }
     
     /**
-     * Scans a user guess and returns a character array
-     * of the colors.
+     * Scans a user guess and returns it as a String object
      * 
-     * @return The user's guess as a character array.
+     * @return The user's guess as a String object
      */
-    public char[] makeUserGuess()
+    public String makeUserGuess()
     {
         String guess = _sc.nextLine();
-        return guess.toCharArray();
+        return guess;
     }
 }

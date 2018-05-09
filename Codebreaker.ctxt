@@ -1,15 +1,15 @@
 #BlueJ class context
 comment0.target=Codebreaker
-comment0.text=\n\ The\ Codebreaker\ handles\ the\ guessing\ of\ the\ code.\n\ It\ contains\ methods\ to\ generate\ a\ computer\ guess\ or\n\ input\ a\ user\ guess.\n\n\ @author\ Junqi\n\ @version\ 5/8/2018\n
+comment0.text=\r\n\ The\ Codebreaker\ handles\ the\ guessing\ of\ the\ code.\r\n\ It\ contains\ methods\ to\ generate\ a\ computer\ guess\ or\r\n\ input\ a\ user\ guess.\r\n\r\n\ @author\ Junqi\r\n\ @version\ 5/8/2018\r\n
 comment1.params=sc
 comment1.target=Codebreaker(java.util.Scanner)
 comment2.params=
-comment2.target=char[]\ makeCPUGuess()
-comment2.text=\n\ \!\!\!\ TODO\ \!\!\!\n\ Uses\ an\ AI\ algorithm\ to\ guess\ the\ code\ based\ on\n\ previous\ guesses\ and\ responses.\n\ \n\ @return\ The\ computer's\ guess\ as\ a\ character\ array.\n
+comment2.target=java.lang.String\ makeCPUGuess()
+comment2.text=\r\n\ \!\!\!\ TODO\ \!\!\!\r\n\ Uses\ an\ AI\ algorithm\ to\ guess\ the\ code\ based\ on\r\n\ previous\ guesses\ and\ responses.\r\n\ \r\n\ @return\ The\ computer's\ guess\ as\ a\ String\ object.\r\n
 comment3.params=response
 comment3.target=void\ addResponse(java.lang.String)
-comment3.text=\n\ Adds\ a\ response\ from\ the\ Codemaker\ to\ the\ Codebreaker's\n\ previous\ responses.\ This\ is\ used\ to\ help\ the\ AI\ algorithm\n\ in\ makeCPUGuess().\n\ \n\ @param\ response\ The\ reponse\ that\ the\ Codemaker\ gave\ to\ the\ previous\ guess.\n
+comment3.text=\r\n\ Adds\ a\ response\ from\ the\ Codemaker\ to\ the\ Codebreaker's\r\n\ previous\ responses.\ This\ is\ used\ to\ help\ the\ AI\ algorithm\r\n\ in\ makeCPUGuess().\r\n\ \r\n\ @param\ response\ The\ reponse\ that\ the\ Codemaker\ gave\ to\ the\ previous\ guess.\r\n
 comment4.params=
-comment4.target=char[]\ makeUserGuess()
-comment4.text=\n\ Scans\ a\ user\ guess\ and\ returns\ a\ character\ array\n\ of\ the\ colors.\n\ \n\ @return\ The\ user's\ guess\ as\ a\ character\ array.\n
+comment4.target=java.lang.String\ makeUserGuess()
+comment4.text=\r\n\ Scans\ a\ user\ guess\ and\ returns\ it\ as\ a\ String\ object\r\n\ \r\n\ @return\ The\ user's\ guess\ as\ a\ String\ object\r\n
 numComments=5
