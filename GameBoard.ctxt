@@ -1,12 +1,15 @@
 #BlueJ class context
 comment0.target=GameBoard
 comment0.text=\n\ Write\ a\ description\ of\ class\ GameBoard\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=
-comment1.target=GameBoard()
-comment2.params=sc
-comment2.target=void\ playMatch(java.util.Scanner)
+comment1.params=sc
+comment1.target=GameBoard(java.util.Scanner)
+comment1.text=\n\ \n
+comment2.params=
+comment2.target=void\ playMatch()
 comment3.params=
-comment3.target=void\ playRound()
+comment3.target=boolean\ playRound()
 comment4.params=
-comment4.target=boolean\ isUserMaker()
-numComments=5
+comment4.target=void\ addPoints()
+comment5.params=
+comment5.target=boolean\ userIsMaker()
+numComments=6
