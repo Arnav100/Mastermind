@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.ArrayList;
 /**
  * The Codebreaker handles the guessing of the code.
  * It contains methods to generate a computer guess or
@@ -12,21 +11,21 @@ public class Codebreaker
 {
 
     private Scanner _sc;
-    
+
     // the guesses and responses that the computer has previously made
     private String[] _guesses;
     private String[] _responses;
-    
+
     private final int NUM_OF_ROUNDS = 15;
-    
+
     public Codebreaker(Scanner sc)
     {
         _sc = sc;
-        
+
         _guesses = new String[NUM_OF_ROUNDS];
         _responses = new String[NUM_OF_ROUNDS];
     }
-    
+
     /**
      * !!! TODO !!!
      * Uses an AI algorithm to guess the code based on
@@ -38,7 +37,7 @@ public class Codebreaker
     {
         return null;
     }
-    
+
     /**
      * Adds a response from the Codemaker to the Codebreaker's
      * previous responses. This is used to help the AI algorithm
@@ -57,7 +56,7 @@ public class Codebreaker
             }
         }
     }
-    
+
     /**
      * Scans a user guess and returns it as a String object
      * 
@@ -66,6 +65,12 @@ public class Codebreaker
     public String makeUserGuess()
     {
         String guess = _sc.nextLine();
+        while(guess.length() != 5)
+        {
+            System.out.println("Your guess needs to be 5 characters long");
+            guess = _sc.nextLine();
+        }
+
         return guess;
     }
 }

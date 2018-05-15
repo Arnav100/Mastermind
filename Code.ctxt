@@ -1,10 +1,12 @@
 #BlueJ class context
 comment0.target=Code
-comment0.text=\r\n\ Used\ to\ store\ the\ code\ for\ gameplay\ and\ check\ guesses.\ \r\n\r\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\r\n\ @version\ 5/8/18\r\n
+comment0.text=\n\ Used\ to\ store\ the\ code\ for\ gameplay\ and\ check\ guesses.\ \n\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n\ @version\ 5/8/18\n
 comment1.params=code
 comment1.target=Code(java.lang.String)
-comment1.text=\r\n\ \r\n
+comment1.text=\n\ \n
 comment2.params=guessStr
 comment2.target=java.lang.String\ getResponse(java.lang.String)
-comment2.text=\r\n\ Takes\ in\ a\ guess\ for\ the\ the\ code\ could\ be,\ and\ checks\ to\ see\ what\ parts\ of\ it\ are\ correct\r\n\ \r\n\ @param\ guess\ char[]\ the\ guess\ to\ check\ against\ the\ code\r\n\ @return\ a\ String\ with\ b\ and/or\ w\ to\ represent\ the\ black\ and\ white\ pegs\ the\ guesser\ recieves\r\n\ @author\ Arnav\ Parashar\r\n
-numComments=3
+comment2.text=\n\ Takes\ in\ a\ guess\ for\ the\ the\ code\ could\ be,\ and\ checks\ to\ see\ what\ parts\ of\ it\ are\ correct\n\ \n\ @param\ guessStr\ String\ the\ guess\ to\ check\ against\ the\ code\n\ @return\ a\ String\ with\ b\ and/or\ w\ to\ represent\ the\ black\ and\ white\ pegs\ the\ guesser\ recieves\n\ @author\ Arnav\ Parashar\n
+comment3.params=
+comment3.target=java.lang.String\ getCode()
+numComments=4
