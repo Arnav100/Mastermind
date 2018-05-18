@@ -1,15 +1,15 @@
 #BlueJ class context
 comment0.target=Codemaker
-comment0.text=\n\ Write\ a\ description\ of\ class\ Codemaker\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Codemaker\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=userIsMaker\ sc
 comment1.target=Codemaker(boolean,\ java.util.Scanner)
-comment1.text=\n\ Used\ when\ the\ user\ is\ the\ codemaker,\ this\ creates\ a\ new\ Codemaker\ object\ and\ takes\ in\ the\ user's\ code.\ \n\ \n\ @param\ input\ String\ the\ code\ the\ user\ would\ like\ to\ use\n\ @param\ sc\ Scanner\ a\ pointer\ for\ the\ _sc\ so\ that\ Codemaker\ can\ prompt\ the\ user\ when\ necessary\n\ @author\ Arnav\ Parashar\n
+comment1.text=\r\n\ Used\ when\ the\ user\ is\ the\ codemaker,\ this\ creates\ a\ new\ Codemaker\ object\ and\ takes\ in\ the\ user's\ code.\ \r\n\ \r\n\ @param\ input\ String\ the\ code\ the\ user\ would\ like\ to\ use\r\n\ @param\ sc\ Scanner\ a\ pointer\ for\ the\ _sc\ so\ that\ Codemaker\ can\ prompt\ the\ user\ when\ necessary\r\n\ @author\ Arnav\ Parashar\r\n
 comment2.params=userGuess
 comment2.target=java.lang.String\ getCPUResponse(java.lang.String)
-comment2.text=\n\ Used\ when\ the\ CPU\ is\ the\ codemaker,\ this\ responds\ with\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ user's\ guess\n\ \n\ @param\ userGuess\ String\ the\ guess\ of\ the\ user\ to\ be\ compared\ to\ the\ correct\ code\n\ @return\ a\ String\ with\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ guess\n\ @author\ Arnav\ Parashar\n
+comment2.text=\r\n\ Used\ when\ the\ CPU\ is\ the\ codemaker,\ this\ responds\ with\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ user's\ guess\r\n\ \r\n\ @param\ userGuess\ String\ the\ guess\ of\ the\ user\ to\ be\ compared\ to\ the\ correct\ code\r\n\ @return\ a\ String\ with\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ guess\r\n\ @author\ Arnav\ Parashar\r\n
 comment3.params=cpuGuess
 comment3.target=java.lang.String\ getUserResponse(java.lang.String)
-comment3.text=\n\ Used\ when\ the\ user\ is\ the\ codemaker,\ has\ the\ user\ respond\ with\ what\ they\ think\ to\ be\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ CPU's\ guess\n\ \n\ @param\ cpuGuess\ String\ the\ guess\ of\ the\ cpu\ to\ be\ compared\ to\ the\ correct\ code\n\ @return\ a\ String\ with\ the\ user's\ amount\ of\ black\ and\ white\ pegs\ for\ the\ guess\n\ @author\ Arnav\ Parashar\n
+comment3.text=\r\n\ Used\ when\ the\ user\ is\ the\ codemaker,\ has\ the\ user\ respond\ with\ what\ they\ think\ to\ be\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ CPU's\ guess\r\n\ \r\n\ @param\ cpuGuess\ String\ the\ guess\ of\ the\ cpu\ to\ be\ compared\ to\ the\ correct\ code\r\n\ @return\ a\ String\ with\ the\ user's\ amount\ of\ black\ and\ white\ pegs\ for\ the\ guess\r\n\ @author\ Arnav\ Parashar\r\n
 comment4.params=
 comment4.target=java.lang.String\ getCode()
 numComments=5
