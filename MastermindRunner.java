@@ -16,7 +16,7 @@ public class MastermindRunner
         + "(R)ed, (O)range, (Y)ellow, (G)reen, (P)urple, (B)lue, (W)hite, (T)an \n"
         + "(b)lack key pegs will be the responses indicating a correct code peg. \n"
         + "(w)hite key pegs will be the responses indicating a correct color in the wrong spot \n"
-        + "You will have ten chances to break the code \n \n"
+        + "You will have fifteen chances to break the code \n \n"
         + "Begin enter guesses, for example ROYGB");
         
         System.out.println("Would you like to play?");

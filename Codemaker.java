@@ -59,7 +59,7 @@ public class Codemaker
      */
     public String getUserResponse(String cpuGuess)
     {
-        System.out.println("The computer responded with " + cpuGuess + "\n Now you can tell what it did wrong. \n (Ex. bb w)" );
+        System.out.println("The computer responded with " + cpuGuess + "\nNow you can tell what it did wrong. (Ex. bwww)" );
         String response = _sc.nextLine();
 
         return response;

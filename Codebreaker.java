@@ -60,8 +60,8 @@ public class Codebreaker
         if(prevGuess.isEmpty())
         {
             // remove the guess and return it
-            String guess = possibleGuesses[9];
-            possibleGuesses[9] = "";
+            String guess = possibleGuesses[74];
+            possibleGuesses[74] = "";
             prevGuess = guess;
             return guess;
         }
@@ -90,7 +90,6 @@ public class Codebreaker
     {
         if(response.equals("bbbbb"))
         {
-            System.out.println("I win!");
             return;
         }
         
