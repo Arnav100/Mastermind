@@ -1,14 +1,18 @@
 import java.util.Scanner;
 /**
- * Write a description of class MastermindRunner here.
+ * The MastermindRunner plays the game Mastermind with the user. 
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Arnav Parashar and Junqi Wu
+ * @version 5/21/18
  */
 public class MastermindRunner
 {
     private static GameBoard _gameBoard;
     private static Scanner _sc;
+    
+    /**
+     * Plays the Mastermind game for as long as the user would like. 
+     */
     public static void main()
     {
         System.out.println("Welcome to Mastermind \n \nThe object of the game as Codebreaker is to guess the secret code, \nas Codemaker you create a code"

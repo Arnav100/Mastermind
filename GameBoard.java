@@ -1,9 +1,9 @@
 import java.util.Scanner;
 /**
- * Write a description of class GameBoard here.
+ * The Gameboard is responsible for playing the Mastermind game.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Arnav Parashar and Junqi Wu
+ * @version 5/21/18
  */
 public class GameBoard
 {
@@ -18,7 +18,10 @@ public class GameBoard
    private final int NUM_OF_ROUNDS = 10;
    
    /**
+    * Creates a new GameBoard object
     * 
+    * @param sc Scanner to be used to prompt the user when neccessary
+    * @author Arnav Parashar and Junqi Wu
     */
    public GameBoard(Scanner sc) 
    {
@@ -30,6 +33,11 @@ public class GameBoard
   
    }
    
+   /**
+    * Plays the mastermind game
+    * 
+    * @author Arnav Parashar and Junqi Wu
+    */
    public void playGame() 
    {
       for(int i = 0; i < NUM_OF_MATCHES; i++)

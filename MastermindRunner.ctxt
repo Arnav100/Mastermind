@@ -1,6 +1,7 @@
 #BlueJ class context
 comment0.target=MastermindRunner
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MastermindRunner\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ The\ MastermindRunner\ plays\ the\ game\ Mastermind\ with\ the\ user.\ \n\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n\ @version\ 5/21/18\n
 comment1.params=
 comment1.target=void\ main()
+comment1.text=\n\ Plays\ the\ Mastermind\ game\ for\ as\ long\ as\ the\ user\ would\ like.\ \n
 numComments=2
