@@ -70,9 +70,9 @@ public class GameBoard
        String response;
        if(_userIsMaker)
        {
-           guess = _breaker.makeCPUGuess2();
+           guess = _breaker.makeCPUGuess();
            response = _maker.getUserResponse(guess);
-           _breaker.addResponse2(response);
+           _breaker.addResponse(response);
        } 
        else 
        {
