@@ -1,15 +1,16 @@
 #BlueJ class context
 comment0.target=Codebreaker
-comment0.text=\r\n\ The\ Codebreaker\ handles\ the\ guessing\ of\ the\ code.\r\n\ It\ contains\ methods\ to\ generate\ a\ computer\ guess\ or\r\n\ input\ a\ user\ guess.\r\n\r\n\ @author\ Junqi\r\n\ @version\ 5/8/2018\r\n
+comment0.text=\r\n\ The\ Codebreaker\ handles\ the\ guessing\ of\ the\ code.\r\n\ It\ contains\ methods\ to\ generate\ a\ computer\ guess\ or\r\n\ input\ a\ user\ guess.\r\n\r\n\ @author\ Junqi\ Wu\ and\ Arnav\ Parashar\r\n\ @version\ 5/8/2018\r\n
 comment1.params=sc
 comment1.target=Codebreaker(java.util.Scanner)
+comment1.text=\r\n\ Creates\ a\ new\ Codebreaker\ object,\ generates\ all\ possible\ guesses\ to\ be\ used\ when\ the\ computer\ is\ figuring\ out\ the\ user's\ code.\r\n\ \r\n\ @param\ sc\ Scanner\ a\ pointer\ for\ the\ _sc\ so\ that\ Codebreaker\ can\ prompt\ the\ user\ when\ necessary\r\n\ @author\ Junqi\ Wu\r\n
 comment2.params=
 comment2.target=java.lang.String\ makeCPUGuess()
-comment2.text=\r\n\ Uses\ magic\ to\ guess\ the\ code\r\n\ \r\n\ @author\ Junqi\r\n\ @return\ The\ computer's\ guess\ as\ a\ String\ object.\r\n
+comment2.text=\r\n\ Picks\ a\ non\ empty\ String\ for\ a\ possible\ guess\ from\ the\ possibleGuess\ array\r\n\ \r\n\ @author\ Junqi\r\n\ @return\ The\ computer's\ guess\ as\ a\ String\ object.\r\n
 comment3.params=response
 comment3.target=void\ addResponse(java.lang.String)
-comment3.text=\r\n\ Keeps\ track\ of\ all\ user\ responses\ with\ magic\r\n\ \r\n\ @author\ Junqi\r\n\ @param\ response\ The\ reponse\ that\ the\ Codemaker\ gave\ to\ the\ previous\ guess.\r\n
+comment3.text=\r\n\ Using\ the\ user's\ response,\ this\ elimantes\ possibilities\ which\ would\ return\ the\ same\ response.\ \r\n\ \r\n\ @author\ Junqi\r\n\ @param\ response\ The\ reponse\ that\ the\ Codemaker\ gave\ to\ the\ previous\ guess.\r\n
 comment4.params=
 comment4.target=java.lang.String\ makeUserGuess()
-comment4.text=\r\n\ Scans\ a\ user\ guess\ and\ returns\ it\ as\ a\ String\ object\r\n\ \r\n\ @return\ The\ user's\ guess\ as\ a\ String\ object\r\n
+comment4.text=\r\n\ Scans\ a\ user\ guess\ and\ returns\ it\ as\ a\ String\ object\r\n\ \r\n\ @return\ The\ user's\ guess\ as\ a\ String\ object\r\n\ @author\ Arnav\ Parashar\r\n
 numComments=5

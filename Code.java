@@ -9,7 +9,10 @@ public class Code
     private char[] _code;
 
     /**
+     * Converts the desired code to a char array
      * 
+     * @param code String to be used as the code
+     * @author Arnav Parashar and Junqi Wu
      */
     public Code(String code)
     {
@@ -75,6 +78,12 @@ public class Code
         return blackPegs + whitePegs;
     }
     
+    /**
+     * Returns the code which is being stored
+     * 
+     * @return the String representation of the code
+     * @author Arnav Parashar
+     */
     public String getCode() 
     {
         String code = "";

@@ -1,11 +1,12 @@
 #BlueJ class context
 comment0.target=GameBoard
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ GameBoard\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ The\ Gameboard\ is\ responsible\ for\ playing\ the\ Mastermind\ game.\r\n\r\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\r\n\ @version\ 5/21/18\r\n
 comment1.params=sc
 comment1.target=GameBoard(java.util.Scanner)
-comment1.text=\r\n\ \r\n
+comment1.text=\r\n\ Creates\ a\ new\ GameBoard\ object\r\n\ \r\n\ @param\ sc\ Scanner\ to\ be\ used\ to\ prompt\ the\ user\ when\ necessary\r\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\r\n
 comment2.params=
 comment2.target=void\ playGame()
+comment2.text=\r\n\ Plays\ the\ mastermind\ game\r\n\ \r\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\r\n
 comment3.params=
 comment3.target=void\ playMatch()
 comment4.params=

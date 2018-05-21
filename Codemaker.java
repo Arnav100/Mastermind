@@ -1,9 +1,10 @@
 import java.util.Scanner;
 /**
- * Write a description of class Codemaker here.
+ * The CodeMaker handles the creation of the Code and the response of the guesses. 
+ * It contains methods which randomly creates code or takes in the user's code, along with returning the user's or the computer's response
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Arnav Parashar and Junqi Wu
+ * @version 5/21/18
  */
 public class Codemaker
 { 
@@ -13,9 +14,10 @@ public class Codemaker
     private final int CODE_LENGTH = 5;
 
     /**
-     * Used when the user is the codemaker, this creates a new Codemaker object and takes in the user's code. 
+     * This creates a new Codemaker object. If user is the maker, it takes in the user's code, otherwise generates 
+     * a random code. 
      * 
-     * @param input String the code the user would like to use
+     * @param userIsMaker boolean true if the user is the code maker
      * @param sc Scanner a pointer for the _sc so that Codemaker can prompt the user when necessary
      * @author Arnav Parashar
      */
