@@ -10,7 +10,7 @@ public class Codemaker
 { 
     private Code _code;
     private Scanner _sc;
-    private final char[] _colors = {'R', 'O', 'Y', 'G', 'B', 'P', 'W', 'T'};
+    private final char[] _colors = { 'R', 'O', 'Y', 'G', 'B', 'P', 'W', 'T' };
     private final int CODE_LENGTH = 5;
 
     /**
@@ -21,22 +21,23 @@ public class Codemaker
      * @param sc Scanner a pointer for the _sc so that Codemaker can prompt the user when necessary
      * @author Arnav Parashar
      */
-    public Codemaker(boolean userIsMaker, Scanner sc)
+    public Codemaker( boolean userIsMaker, Scanner sc )
     {
         _sc = sc;
         String input = "";
-        if(userIsMaker){
-            System.out.println("Input your code for the computer to guess: ");
+        if(userIsMaker)
+        {
+            System.out.println( "Input your code for the computer to guess: " );
             input = _sc.nextLine();
         }
         else {
            
-            for(int i = 0; i < CODE_LENGTH; i++)
-                input = input + _colors[(int)(Math.random() * _colors.length)];
+            for( int i = 0; i < CODE_LENGTH; i++ )
+                input = input + _colors[ (int)(Math.random() * _colors.length) ];
 
           //  System.out.println("The actual code (For Testing Purposes):   " + input); //remove later
         }
-        _code = new Code(input);
+        _code = new Code( input );
     }
 
     /**
@@ -47,9 +48,9 @@ public class Codemaker
      * @author Arnav Parashar
      */
 
-    public String getCPUResponse(String userGuess) 
+    public String getCPUResponse( String userGuess ) 
     {
-        return _code.getResponse(userGuess);
+        return _code.getResponse( userGuess );
     }
 
     /**
@@ -59,16 +60,21 @@ public class Codemaker
      * @return a String with the user's amount of black and white pegs for the guess
      * @author Arnav Parashar
      */
-    public String getUserResponse(String cpuGuess)
+    public String getUserResponse( String cpuGuess )
     {
-        System.out.println("The computer responded with " + cpuGuess + "\nNow you can tell what it did wrong. (Ex. bwww)" );
+        System.out.println( "The computer responded with " + cpuGuess + "\nNow you can tell what it did wrong. (Ex. bwww)" );
         String response = _sc.nextLine();
 
         return response;
     } 
-    
+    /**
+    * Used to get the code as a String
+    * 
+    * @return a String representation of the code
+    * @author Arnav Parashar and Junqi Wu
+    */
     public String getCode()
     {
-        return _code.getCode();
+        return _code.toString();
     }
 }

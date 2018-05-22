@@ -12,4 +12,5 @@ comment3.target=java.lang.String\ getUserResponse(java.lang.String)
 comment3.text=\n\ Used\ when\ the\ user\ is\ the\ codemaker,\ has\ the\ user\ respond\ with\ what\ they\ think\ to\ be\ the\ correct\ amount\ of\ black\ and\ white\ pegs\ for\ the\ CPU's\ guess\n\ \n\ @param\ cpuGuess\ String\ the\ guess\ of\ the\ cpu\ to\ be\ compared\ to\ the\ correct\ code\n\ @return\ a\ String\ with\ the\ user's\ amount\ of\ black\ and\ white\ pegs\ for\ the\ guess\n\ @author\ Arnav\ Parashar\n
 comment4.params=
 comment4.target=java.lang.String\ getCode()
+comment4.text=\n\ Used\ to\ get\ the\ code\ as\ a\ String\n\ \n\ @return\ a\ String\ representation\ of\ the\ code\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n
 numComments=5

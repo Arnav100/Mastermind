@@ -8,6 +8,6 @@ comment2.params=guessStr
 comment2.target=java.lang.String\ getResponse(java.lang.String)
 comment2.text=\n\ Takes\ in\ a\ guess\ for\ the\ the\ code\ could\ be,\ and\ checks\ to\ see\ what\ parts\ of\ it\ are\ correct\n\ \n\ @param\ guessStr\ String\ the\ guess\ to\ check\ against\ the\ code\n\ @return\ a\ String\ with\ b\ and/or\ w\ to\ represent\ the\ black\ and\ white\ pegs\ the\ guesser\ recieves\n\ @author\ Arnav\ Parashar\n
 comment3.params=
-comment3.target=java.lang.String\ getCode()
+comment3.target=java.lang.String\ toString()
 comment3.text=\n\ Returns\ the\ code\ which\ is\ being\ stored\n\ \n\ @return\ the\ String\ representation\ of\ the\ code\n\ @author\ Arnav\ Parashar\n
 numComments=4

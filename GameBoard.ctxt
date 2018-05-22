@@ -1,16 +1,18 @@
 #BlueJ class context
 comment0.target=GameBoard
-comment0.text=\r\n\ The\ Gameboard\ is\ responsible\ for\ playing\ the\ Mastermind\ game.\r\n\r\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\r\n\ @version\ 5/21/18\r\n
+comment0.text=\n\ The\ Gameboard\ is\ responsible\ for\ playing\ the\ Mastermind\ game.\n\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n\ @version\ 5/21/18\n
 comment1.params=sc
 comment1.target=GameBoard(java.util.Scanner)
-comment1.text=\r\n\ Creates\ a\ new\ GameBoard\ object\r\n\ \r\n\ @param\ sc\ Scanner\ to\ be\ used\ to\ prompt\ the\ user\ when\ necessary\r\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\r\n
+comment1.text=\n\ Creates\ a\ new\ GameBoard\ object\n\ \n\ @param\ sc\ Scanner\ to\ be\ used\ to\ prompt\ the\ user\ when\ necessary\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n
 comment2.params=
 comment2.target=void\ playGame()
-comment2.text=\r\n\ Plays\ the\ mastermind\ game\r\n\ \r\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\r\n
+comment2.text=\n\ Plays\ the\ mastermind\ game\n\ \n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n
 comment3.params=
 comment3.target=void\ playMatch()
+comment3.text=\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n
 comment4.params=
 comment4.target=boolean\ playRound()
+comment4.text=\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n
 comment5.params=
 comment5.target=void\ addPoints()
 numComments=6
