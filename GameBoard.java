@@ -117,7 +117,10 @@ public class GameBoard
         // return if the round is won or not
         return response.equals( "bbbbb" );
     }
-
+    
+    /**
+     * @author Arnav Parashar
+     */
     private void addPoints()
     {
         // give the maker one point

@@ -15,4 +15,5 @@ comment4.target=boolean\ playRound()
 comment4.text=\n\ @author\ Arnav\ Parashar\ and\ Junqi\ Wu\n
 comment5.params=
 comment5.target=void\ addPoints()
+comment5.text=\n\ @author\ Arnav\ Parashar\n
 numComments=6

@@ -56,7 +56,7 @@ public class Codebreaker
     /**
      * Picks a non empty String for a possible guess from the possibleGuess array
      * 
-     * @author Junqi
+     * @author Junqi Wu
      * @return The computer's guess as a String object.
      */
     public String makeCPUGuess()
@@ -88,7 +88,7 @@ public class Codebreaker
     /**
      * Using the user's response, this elimantes possibilities which would return the same response. 
      * 
-     * @author Junqi
+     * @author Junqi Wu
      * @param response The reponse that the Codemaker gave to the previous guess.
      */
     public void addResponse( String response )
